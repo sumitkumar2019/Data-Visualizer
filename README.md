@@ -37,5 +37,3 @@ npm start
 - click on Transform button - > another pop up card will open - > select sort column and sort type from them
 - click on output file type button -> another pop up card will open -> select mysql from them(this will add joined records to table)
 - Now click on table icon on top right side corner - to see joined table records
-- 
-- 
