@@ -1,13 +1,99 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.dashed-label {
+  border-style: dashed;
+  background-color: rgb(216, 216, 213);
+  color: dimgray;
+  padding: 5px;
+  width: 200px;
+  text-align: center;
+  font-size: medium;
+  font-weight: lighter;
+  font-style: italic;
+}
+.vl {
+  border-left: 3px dashed rgb(56, 113, 170);
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  height: 130px;
+}
+div.card {
+  width: 280px;
+  height: 195px;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: left;
+  margin: 10px;
+}
+button.mini-icon-card {
+  width: 50px;
+  height: 43px;
+  padding: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  margin: 5px;
+  float: right;
+}
+.navbar-color {
+  background: #181827;
+}
+.container-color {
+  background-color: #e9ecef;
+}
+.header-text {
+  margin-top: 13px;
+  font-size: 18px;
+}
+
+.nav-bar-p {
+  float: right;
+  margin-left: 10px;
+}
+.data-source-body {
+  background-color: #e9ecef;
+  padding: 10px;
+  margin: 10px;
+  height: 350px;
+  overflow: scroll;
+}
+.visualizer-body {
+  background-color: #e9ecef;
+  padding: 10px;
+  margin: 10px;
+  height: 750px;
+}
+.visualizer-body-container {
+  background-color: #e9ecef;
+  height: 600px;
+  margin: 20px;
+  padding: 20px;
+}
+.data-format {
+  background-color: #e9ecef;
+  padding: 10px;
+  margin: 10px;
+  height: 350px;
+  overflow: scroll;
+}
+.data-preview {
+  background-color: #e9ecef;
+  padding: 10px;
+  margin: 10px;
+  height: 320px;
+  overflow: scroll;
+}
+.cursor {
+  cursor: pointer;
 }

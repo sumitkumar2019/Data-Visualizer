@@ -1,0 +1,51 @@
+{
+  "navBar": {
+    "label": {
+      "header": "Data Analyzer"
+    },
+    "image": {
+      "url": "./images/ring-image.jpg",
+      "text": "Data visualizer logo"
+    }
+  },
+  "sources": {
+    "mysql": {
+      "name": "mysql",
+      "label": "MySQL"
+    },
+    "csv": {
+      "name": "csv",
+      "label": "CSV"
+    }
+  },
+  "dataFormat": {
+    "label": {
+      "header": "1. Select Format"
+    }
+  },
+  "dataSource": {
+    "label": {
+      "header": "2. Select Source"
+    }
+  },
+  "dataPreview": {
+    "label": {
+      "header": "3. Preview"
+    }
+  },
+  "dataVisualizer": {
+    "label": {
+      "header": "4. Visualizer",
+      "button": "Run the Mapping",
+      "transformCard": "Which transformation you want to apply?",
+      "sortCard": "Which field you want to sort?",
+      "keyCard": "Verify the primary key for joining.",
+      "outFileCard": "Select output file type.",
+      "sort": "Sort",
+      "columns": "Fields",
+      "others": "Choose Others",
+      "chooseFile": "Choose File"
+    },
+    "sortingOrders": ["Asc", "Desc"]
+  }
+}
